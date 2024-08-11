@@ -76,13 +76,6 @@ body{
     left: 150px;
     background-color:blue;
 }
-.Hero{
-    height: calc(100vh - 80px);
-    background-image:url("WALL.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat:no-repeat;
-}
 h1{
     color:rgb(98, 0, 255);
     margin-left:10px;
@@ -99,8 +92,26 @@ h2{
     margin-left:35px;
 }
 img{
-    width:50%;
+    width:40%;
     margin-left:35px;
     margin-right:35px;
 
+}
+.IMG{
+    width: 100%;
+}
+.Menu-bar img{
+    margin-right: 20px;
+    width: 55px;
+}
+.Menu-bar #checkbtn{
+    float:right;
+    line-height:80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+.Menu-bar #check{
+    
 }
