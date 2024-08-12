@@ -61,6 +61,10 @@ body{
     width:150px;
     padding:10px;
 }
+.Active{
+    background-color: rgba(240, 248, 255, 0.242);
+    border-radius: 5px;
+}
 .fas{
     float:right;
     margin-left:10px;
@@ -111,7 +115,4 @@ img{
     font-size: 30px;
     color: white;
     display: none;
-}
-.Menu-bar #check{
-    
 }
