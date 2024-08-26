@@ -15,6 +15,7 @@ body{
     align-items:center;
     justify-content:space-between;
     padding: 0px 5%;
+    border-radius: 2px;
 }
 .logo{
     color:white;
@@ -40,18 +41,17 @@ body{
 .Menu-bar ul li a:hover{
     color:rgba(20, 130, 227, 0.707)
 }
-
 .drop-down-menu{
     display: none;
-
 }
 
 .Menu-bar ul li:hover .drop-down-menu{
     display: block;
     position: absolute;
+    border-radius: 10px;
     top:100%;
     left: 0;
-    background-color:blue;
+    background-color:rgb(0, 55, 255);
 }
 .Menu-bar ul li:hover .drop-down-menu ul{
     display: block;
@@ -76,6 +76,7 @@ body{
 .drop-down-menu ul li:hover .drop-down-menu1{
     display: block;
     position: absolute;
+    border-radius: 10px;
     top:0;
     left: 150px;
     background-color:blue;
