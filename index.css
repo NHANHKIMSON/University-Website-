@@ -21,6 +21,11 @@ body{
     color:white;
     font-size:30px;
 }
+@media (max-width:1100px) {
+    .logo{
+        display: none;
+    }
+}
 .logo span{
     color:aqua;
 }
@@ -39,7 +44,7 @@ body{
     transition: all 0.3;
 }
 .Menu-bar ul li a:hover{
-    color:rgba(20, 130, 227, 0.707)
+    color:rgba(20, 130, 227, 0.707);
 }
 .drop-down-menu{
     display: none;
@@ -81,6 +86,26 @@ body{
     left: 150px;
     background-color:blue;
 }
+.Menu-bar li{
+    text-decoration: none;
+    list-style-type: none;
+}
+@media (max-width:900px) {
+    .Menu-bar ul{
+        display: none;
+    }
+}
+@media (min-width:900px) {
+    #fa-solid{
+        display: none;
+    }
+    #sidebar{
+        display: none;
+    }
+}
+#fa-solid{
+    font-size:xx-large;
+}
 h1{
     color:rgb(98, 0, 255);
     margin-left:10px;
@@ -116,4 +141,65 @@ img{
     font-size: 30px;
     color: white;
     display: none;
+}
+.footer{
+    background-color:rgba(13, 13, 221, 0.771);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.footer{
+    background-color: #0b4ae85d;
+    padding:70px 50px;
+}
+.footer h4{
+    color:rgb(106, 102, 102);
+}
+.footer-col ul li{
+    color: white;
+}
+.footer-col ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: medium;
+}
+.sidebar{
+    position:absolute;
+    background-color:rgba(8, 8, 244, 0.921);
+    width: 300px;
+    height: 100vh;
+}
+.container1 ul li a{
+    padding: 5px;
+    text-decoration: none;
+}
+.container1 ul li a:hover{
+    color:rgba(20, 130, 227, 0.707);
+}
+.sidebar ul li a{
+    color:white;
+    font-size: larger;
+}
+.fa-solid{
+    margin: 10px;
+    color: white;
+}
+.fa-brands{
+    margin: 10px;
+    color: white;
+
+}
+#icon-close-bar{
+    margin-left:260px;
+    font-size: xx-large;
 }

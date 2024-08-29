@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About Us</title>
     <link
       rel="stylesheet"
@@ -16,10 +17,11 @@
   <body>
     <div class="Menu-bar">
       <img src="BIU.png" alt="">
-      <h1 class="logo">BELTEI <span>International University</span></h1>
+      <h1 class="logo">BELTEI <span>IU</span></h1>
+      <li><i id="fa-solid" onclick="open_bar()" class="fa-solid fa-bars"></i></li>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li class="Active"><a href="#">About</a></li>
         <li>
           <a href="#">Pages <i class="fas fa-caret-down"></i></a>
 
@@ -46,8 +48,28 @@
           </div>
         </li>
         <li><a href="service.html">Service</a></li>
-        <li><a href="contact.html">Comtact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
+    </div>
+    <div id="sidebar" class="sidebar">
+      <div class="container1">
+        <ul>
+          <li id = "icon-close-bar"><i onclick="close_bar()" class="fa-solid fa-xmark"></i></li>
+          <li><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
+          <li><i class="fa-solid fa-address-book"></i><a href="#"> About</a></li>
+          <li><i class="fa-solid fa-briefcase"></i><a href="#">Portfolio</a></li>
+          <li><i class="fa-brands fa-teamspeak"></i><a href="#">Team</a></li>
+          <li><a href="#">NHANH KIMSON</a></li>
+          <li><a href="#">YORN SOMNANG</a></li>
+          <li><a href="#">KHUN LEAPHENG</a></li>
+          <li><a href="#">UN PHEASA</a></li>
+          <li><a href="#">CHHORN SAKADA</a></li>
+          <li><a href="#">KHEM CHANRAKSMEY</a></li>
+          <li><i class="fa-solid fa-question"></i><a href="#">FAQ</a></li>
+          <li><i class="fa-solid fa-id-card"></i></i></i><a href="#"> Contact</a></li>
+          <li><i class="fa-brands fa-usps"></i><a href="#"> Service</a></li>
+        </ul>
+      </div>
     </div>
     <section class="About">
       <div>
@@ -103,5 +125,30 @@
           <img src="index.jpg" alt="" />
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
+              <li><i class="fa-solid fa-address-book"></i><a href="#"> About</a></li>
+              <li><i class="fa-solid fa-id-card"></i></i></i><a href="#"> Contact</a></li>
+              <li><i class="fa-brands fa-usps"></i><a href="#">Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+             <li><i class="fa-brands fa-facebook"></i><a href="#"> Facebook</a></li>
+             <li><i class="fa-brands fa-youtube"></i><a href="#"> Youtube</a></li>
+             <li><i class="fa-brands fa-github"></i><a href="#"> Github</a></li>
+             <li><i class="fa-brands fa-linkedin"></i><a href="#"> Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>
