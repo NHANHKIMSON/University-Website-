@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About Us</title>
     <link
       rel="stylesheet"
@@ -15,8 +16,9 @@
   </head>
   <body>
     <div class="Menu-bar">
-      <img src="BIU.png" alt="">
-      <h1 class="logo">BELTEI <span>International University</span></h1>
+      <img src="/IMG/BIU.png" alt="">
+      <h1 class="logo">BELTEI <span>IU</span></h1>
+      <li><i id="fa-solid" onclick="open_bar()" class="fa-solid fa-bars"></i></li>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">About</a></li>
@@ -31,10 +33,12 @@
                 <a href="#">Team <i class="fas fa-caret-right"></i></a>
                 <div class="drop-down-menu1">
                   <ul>
-                    <li><a href="#">Team-1</a></li>
-                    <li><a href="#">Team-2</a></li>
-                    <li><a href="#">Team-3</a></li>
-                    <li><a href="#">Team-4</a></li>
+                    <li><a href="#">NHANH KIMSON</a></li>
+                    <li><a href="#">YORN SOMNANG</a></li>
+                    <li><a href="#">KHUN LEAPHENG</a></li>
+                    <li><a href="#">UN PHEASA</a></li>
+                    <li><a href="#">CHHORN SAKADA</a></li>
+                    <li><a href="#">KHEM CHANRAKSMEY</a></li>
                   </ul>
                 </div>
               </li>
@@ -44,38 +48,56 @@
           </div>
         </li>
         <li><a href="service.html">Service</a></li>
-        <li><a href="#">Comtact</a></li>
+        <li class="Active"><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-    <section>
-      <h1 style="width: 70%;">
-        [Your University Name]
-        [Building Name/Number, Street Address]
-        [City, State, Postal Code]
-        [Country]
-      </h1>
-      <p>
-        Phone: 017 490 213
-      </p>
-        
-      <p>
-
-        Main Office: [Your University Phone Number]
-        Admissions Office: [Your Admissions Office Phone Number]
-        
-        Email
-        
-        General Inquiries: [general@youruniversity.edu]
-        Admissions: [admissions@youruniversity.edu]
-        Support: [support@youruniversity.edu]
-        
-        Social Media
-        
-        Follow us on social media for the latest updates and announcements!
-        Facebook | Twitter | Instagram | LinkedIn
-        
-        Let me know if you need further customization!
-      </p>
+    <div id="sidebar" class="sidebar">
+      <div class="container1">
+        <ul>
+          <li id = "icon-close-bar"><i onclick="close_bar()" class="fa-solid fa-xmark"></i></li>
+          <li><i class="fa-solid fa-house"></i><a href="index.html"> Home</a></li>
+          <li><i class="fa-solid fa-address-book"></i><a href="About.html"> About</a></li>
+          <li><i class="fa-solid fa-briefcase"></i><a href="#">Portfolio</a></li>
+          <li><i class="fa-brands fa-teamspeak"></i><a href="#">Team</a></li>
+          <li><a href="#">NHANH KIMSON</a></li>
+          <li><a href="#">YORN SOMNANG</a></li>
+          <li><a href="#">KHUN LEAPHENG</a></li>
+          <li><a href="#">UN PHEASA</a></li>
+          <li><a href="#">CHHORN SAKADA</a></li>
+          <li><a href="#">KHEM CHANRAKSMEY</a></li>
+          <li><i class="fa-solid fa-question"></i><a href="#">FAQ</a></li>
+          <li><i class="fa-solid fa-id-card"></i></i></i><a href="#"> Contact</a></li>
+          <li><i class="fa-brands fa-usps"></i><a href="#"> Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="About">
+      <h1>This is contact page</h1>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><i class="fa-solid fa-house"></i><a href="#"> Home</a></li>
+              <li><i class="fa-solid fa-address-book"></i><a href="#"> About</a></li>
+              <li><i class="fa-solid fa-id-card"></i></i></i><a href="#"> Contact</a></li>
+              <li><i class="fa-brands fa-usps"></i><a href="#">Service</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+             <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/?ref=homescreenpwa"> Facebook</a></li>
+             <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/@sonprogramming"> Youtube</a></li>
+             <li><i class="fa-brands fa-github"></i><a href="https://github.com/NHANHKIMSON"> Github</a></li>
+             <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/nhanh-kimson-933433325/"> Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>
