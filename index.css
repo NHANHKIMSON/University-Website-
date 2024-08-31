@@ -334,8 +334,10 @@ button:hover{
 @media screen and (max-width: 768px) {
     .container-cn{
         padding: 20px;
+        margin: 0px;
     }
     .wrapper-cn{
         grid-template-columns: 1fr;
+        margin: 0px;
     }
 }
