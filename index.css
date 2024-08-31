@@ -258,8 +258,9 @@ ul{
 }
 .contact{
     min-height: 100vh;
-    padding:20px;
+    padding:50px;
     text-align: center;
+    align-items: center;
 }
 .container-cn{
     max-width: 800px;
