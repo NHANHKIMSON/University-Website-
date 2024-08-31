@@ -273,8 +273,8 @@ ul{
     margin:0px auto;
 }
 .container-cn h2{
-    font-size: 36px;
-    margin-bottom:40px;
+    font-size: 30px;
+    margin-bottom:34px;
     color:#333;
 }
 .wrapper-cn{
@@ -286,16 +286,16 @@ ul{
     text-align: left;
 }
 .contact-form h3{
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
     color:#333;
 }
 .form-group{
     margin-bottom: 20px;
 }
 input, textarea{
-    width: 100%;
-    padding:12px;
+    width: 80%;
+    padding:10px 12px ;
     border-radius: 8px;
     border: none;
 }
@@ -321,8 +321,8 @@ button:hover{
     text-align: left;
 }
 .contact-info h3{
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 .contact-info p{
     margin-bottom: 10px;
@@ -330,14 +330,18 @@ button:hover{
 }
 .contact-info i{
     margin: 0px;
+    display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .container-cn{
-        padding: 20px;
-        margin: 0px;
+        text-align: center;
+        align-items: center;
     }
     .wrapper-cn{
         grid-template-columns: 1fr;
         margin: 0px;
+    }
+    .contact-info p{
+        font-size: 10px;
     }
 }
